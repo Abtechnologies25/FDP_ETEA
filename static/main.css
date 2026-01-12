@@ -60,7 +60,7 @@ h6 {
 .hero-banner {
     position: relative;
     min-height: 60vh;
-    background: url('bf.jpg') no-repeat center top/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('bf.jpg') no-repeat center bottom/cover;
     display: flex;
     align-items: center;
     color: white !important;
