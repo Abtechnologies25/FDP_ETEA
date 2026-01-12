@@ -27,15 +27,16 @@
 <body>
   {% include 'navbar.html' %}
 
-  <header class="py-5 text-center mt-5">
+  <header class="page-header text-center">
     <div class="container">
       <h1 class="section-title">Registration & Payment</h1>
     </div>
   </header>
 
   <main class="container py-5">
-    <div class="row">
-      <div class="col-lg-8 mb-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 mb-4">
+        <!-- Registration Details -->
         <div class="registration-card mb-4">
           <h3 class="text-accent mb-4">REGISTRATION DETAILS</h3>
           <p class="text-muted mb-4 font-weight-bold">Registration for the FDP can be done using the online registration
@@ -77,48 +78,50 @@
           </div>
         </div>
 
-        <div class="form-container">
-          <h3 class="section-title text-left mb-4">Registration Form</h3>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScAqilYj0SPHONzlN6M7QRY8Tvc22z74PyfGNSulm_ywPpEEQ/viewform?embedded=true"
-            height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <!-- Registration Link -->
+        <div class="form-container text-center py-5">
+          <h3 class="section-title mb-4">ONLINE REGISTRATION LINK</h3>
+          <a href="https://forms.gle/tNVsWtj2wNQNzHNQ6" target="_blank"
+            class="btn btn-primary-custom btn-lg font-weight-bold px-5 py-3 shadow-lg rounded-pill">
+            <i class="fas fa-external-link-alt mr-2"></i> CLICK HERE TO REGISTER
+          </a>
         </div>
-      </div>
 
-      <div class="col-lg-4">
-        <div class="glass-card sticky-top shadow-sm" style="top: 100px;">
-          <h4 class="text-accent mb-4"><i class="fas fa-university mr-2"></i>Bank Details</h4>
-          <div class="text-muted">
-            <div class="mb-3">
-              <label class="small text-accent font-weight-bold">ACCOUNT NAME</label>
+        <!-- Bank Details -->
+        <div class="glass-card shadow-sm mt-4">
+          <h4 class="text-accent mb-4 text-center"><i class="fas fa-university mr-2"></i>Bank Details</h4>
+          <div class="text-muted row">
+            <div class="col-md-6 mb-3">
+              <label class="small text-accent font-weight-bold d-block">ACCOUNT NAME</label>
               <div class="h6 text-dark font-weight-bold">AB TECHNOLOGIES</div>
             </div>
-            <div class="mb-3">
-              <label class="small text-accent font-weight-bold">BANK NAME</label>
+            <div class="col-md-6 mb-3">
+              <label class="small text-accent font-weight-bold d-block">BANK NAME</label>
               <div class="h6 text-dark font-weight-bold">CANARA BANK</div>
             </div>
-            <div class="mb-3">
-              <label class="small text-accent font-weight-bold">ACCOUNT NUMBER</label>
+            <div class="col-md-6 mb-3">
+              <label class="small text-accent font-weight-bold d-block">ACCOUNT NUMBER</label>
               <div class="h6 text-dark font-weight-bold">125002496960</div>
             </div>
-            <div class="mb-3">
-              <label class="small text-accent font-weight-bold">ACCOUNT TYPE</label>
+            <div class="col-md-6 mb-3">
+              <label class="small text-accent font-weight-bold d-block">ACCOUNT TYPE</label>
               <div class="h6 text-dark font-weight-bold">OD.</div>
             </div>
-            <div class="mb-3">
-              <label class="small text-accent font-weight-bold">IFSC CODE</label>
+            <div class="col-md-6 mb-3">
+              <label class="small text-accent font-weight-bold d-block">IFSC CODE</label>
               <div class="h6 text-dark font-weight-bold">CNRB0001112</div>
             </div>
-            <div class="mb-3">
-              <label class="small text-accent font-weight-bold">BRANCH</label>
+            <div class="col-md-6 mb-3">
+              <label class="small text-accent font-weight-bold d-block">BRANCH</label>
               <div class="h6 text-dark font-weight-bold">MEENAKSHI PURAM, NAGERCOIL.</div>
             </div>
-            <div class="pt-3 border-top border-muted">
-              <label class="small text-accent font-weight-bold">PHONEPE / GPAY</label>
+            <div class="col-12 pt-3 border-top border-muted text-center">
+              <label class="small text-accent font-weight-bold d-block">PHONEPE / GPAY</label>
               <div class="h5 text-danger font-weight-bold">9840511458</div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </main>
